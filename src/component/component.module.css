@@ -1,0 +1,154 @@
+.movieCard {
+    display: inline-flex;
+    flex-direction: column;
+    
+    margin: auto;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    text-align: center;
+    
+}
+
+.movieComponent {
+    display: grid;
+    row-gap: 30px;
+    grid-template-columns: repeat(4, 4fr);
+    grid-auto-rows: 1fr;
+    /* flex-flow: row wrap;
+    justify-content: space-around; */
+
+}
+
+.movieTitle {
+    display: flex;
+    margin: auto;
+}
+
+.movieImage {
+    border-radius: 25px;
+    height: 50%;
+    width: 50%;
+    margin: auto;
+}
+
+.searchBarContainer {
+    display: inline-flex;
+    flex-direction: row;
+    
+    margin: 0px auto 70px auto;
+    padding: 2px;
+    width: 100;
+    height: 200;
+}
+
+.searchBar {
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+   
+    height: 3vh;
+    width: 20vw;
+}
+
+.searchButton {
+    display:inline-block;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    min-height: 12vh;
+    max-width: 200%;
+
+    margin: 0px 0px 50px 0px;
+
+    font-family: 'Poppins', sans-serif;
+    background-color: #94d2bd;
+}
+
+.navItem {
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 1.25vw;
+    color:#005f73;
+
+    margin: 2vw;
+}
+
+.recipeCard {
+    display: inline-flex;
+    flex-direction: column;
+    
+    margin: auto;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.recipeComponent {
+    margin: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    grid-auto-rows: 1fr;
+    margin: auto;
+    gap: 150px;
+    /* flex-flow: row wrap;
+    justify-content: space-around; */
+
+}
+
+.recipeTitle {
+    display: flex;
+    margin: auto;
+}
+
+.recipeImage {
+    border-radius: 25px;
+    max-height: 200px;
+    max-width: 200px;
+    margin: auto;
+}
+
+.Modal {
+    display: flex;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    background-color: #ddb892;
+    padding: 1rem;
+    text-align: center;
+    width: 450px;
+    height: 675px;
+    z-index: 10;
+    position: fixed;
+    top: 20vh;
+    left: calc(50% - 15rem);
+    color: black;
+    font-weight: bold;
+    
+}
+
+.modalText {
+    display: flex;
+    flex-direction: column;
+
+    padding: 15px;
+    margin: auto 35px;
+    border-radius: 25px;
+    background-color: rgb(253, 230, 230);
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.Backdrop {
+    position: fixed;
+    top: 0%;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
