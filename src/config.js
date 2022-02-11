@@ -1,9 +1,9 @@
 // API KEYS/URL for MOVIE API
 const MOVIE_API_KEY = "PUT YOUR API KEY HERE";
-const MOVIE_API_URL = `https://api.themoviedb.org/3/search/movie?api_key=${MOVIE_API_KEY}&language=en-US&query=`
-const MOVIE_ID_URL_PT1 = `https://api.themoviedb.org/3/movie/`
+const MOVIE_API_URL = `https://api.themoviedb.org/3/search/movie?api_key=${MOVIE_API_KEY}&language=en-US&query=` // For list of movies
+const MOVIE_ID_URL_PT1 = `https://api.themoviedb.org/3/movie/`  // To search for a specific movie
 const MOVIE_ID_URL_PT2 = `?api_key=${MOVIE_API_KEY}&language=en-US`
-const MOVIE_POPULAR_URL = `https://api.themoviedb.org/3/movie/popular?api_key=${MOVIE_API_KEY}&language=en-US&page=1`
+const MOVIE_POPULAR_URL = `https://api.themoviedb.org/3/movie/popular?api_key=${MOVIE_API_KEY}&language=en-US&page=1`  // To get popular movies
 
 const MOVIE_IMAGE_BASE_URL = 'http://image.tmdb.org/t/p/';
 const MOVIE_POSTER_SIZE = 'w780';
