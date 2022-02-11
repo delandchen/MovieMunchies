@@ -2,6 +2,8 @@
 <a href=movie-munchies.web.app> Website </a> 
 <p> A web app that uses themoviedb api and edamam recipe api to search for a movie and a snack </p> 
 
+<br>
+
 How to use: <br>
 - Search for a movie or snack <br>
 - Click on movie card/recipe card <br>
