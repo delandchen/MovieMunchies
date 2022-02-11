@@ -10,8 +10,8 @@ const MOVIE_POSTER_SIZE = 'w780';
 
 
 // API KEYS/URL for RECIPE API
-const RECIPE_API_KEY = "b40ed0c90d4bae1dc968f78221d2eb85";
-const RECIPE_API_ID = "c697216a";
+const RECIPE_API_KEY = "YOUR API KEY HERE";
+const RECIPE_API_ID = "YOUR EDAMAM API ID";
 const RECIPE_API_URL = "https://api.edamam.com/api/recipes/v2?type=public&q="
 
 
